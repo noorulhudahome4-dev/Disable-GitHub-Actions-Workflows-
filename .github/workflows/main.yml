@@ -1,0 +1,13 @@
+name: Disable GitHub Actions Workflows
+
+on:
+  push:
+    branches: [ main ]
+jobs:
+  disable:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Disable
+        run: echo "Disable GitHub Actions Workflows"
+ 
